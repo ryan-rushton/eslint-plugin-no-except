@@ -66,10 +66,6 @@ const hasBar = _.includes(foo, "bar");
 const { bar } = foo;
 ```
 
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
 ## When Not To Use It
 
 If you don't need to restrict objects or properties with exceptions, then don't use this rule.
