@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-no-except",
+  "version": "0.1.0",
+  "description": "Provides similar functionality to eslint no rules with exceptions",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Ryan Rushton <ryan.rushton79@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
