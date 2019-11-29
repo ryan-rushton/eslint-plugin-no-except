@@ -8,6 +8,10 @@
     "eslint-plugin"
   ],
   "author": "Ryan Rushton <ryan.rushton79@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryan-rushton/eslint-plugin-no-except"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
@@ -26,5 +30,5 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
