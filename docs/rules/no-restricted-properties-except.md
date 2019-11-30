@@ -11,7 +11,7 @@ This rule aims to restrict properties or objects globally with exceptions if the
 Examples of **incorrect** code for this rule:
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "property": "includes",
     "exceptions": []
 }] */
@@ -20,7 +20,7 @@ const hasBar = foo.includes("bar");
 ```
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "object": "_",
     "exceptions": []
 }] */
@@ -29,7 +29,7 @@ const bar = _.filter(foo, Boolean);
 ```
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "object": "foo",
     "exceptions": []
 }] */
@@ -40,7 +40,7 @@ const { bar } = foo;
 Examples of **correct** code for this rule:
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "property": "includes",
     "exceptions": ["_"]
 }] */
@@ -49,7 +49,7 @@ const isIncluded = _.includes(foo, "bar");
 ```
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "object": "_",
     "exceptions": ["includes"]
 }] */
@@ -58,7 +58,7 @@ const hasBar = _.includes(foo, "bar");
 ```
 
 ```js
-/* eslint no-restricted-properties-except: [2, {
+/* eslint no-except/no-restricted-properties-except: [2, {
     "object": "foo",
     "exceptions": ["bar"]
 }] */
