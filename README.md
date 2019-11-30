@@ -33,7 +33,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-restricted-properties-except/rule-name": 2
+        "no-except/rule-name": 2
     }
 }
 ```
