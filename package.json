@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-except",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Provides similar functionality to eslint no rules with exceptions",
   "keywords": [
     "eslint",
