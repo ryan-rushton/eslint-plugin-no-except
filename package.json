@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-except",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Provides similar functionality to eslint no rules with exceptions",
   "keywords": [
     "eslint",
@@ -15,9 +15,6 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "^6.7.1",
